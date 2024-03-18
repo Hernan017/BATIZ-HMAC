@@ -4,7 +4,7 @@ header{
     height: 80px;
     align-items: center;
     justify-content: space-between;
-    background-color: #4aaab5;
+    background-color: #e47023;
 }
 
 aside{
@@ -31,14 +31,14 @@ ul{
 
 .div1{
     width: 25%;
-    background-color: #c9528d;
+    background-color: #70cca6;
     float: left;
 }
 
 .div2{
 
     width: 75%;
-    background-color: #318f55;
+    background-color: #a43fc5;
     float: left;
 }
 
@@ -54,7 +54,7 @@ footer {
   }
 
 .img {
-    background: url(./img/cookierun.png) no-repeat center center;
+    background: url(./img/jugar.png) no-repeat center center;
     background-size: cover;
     width: 1000px;
     height: 100px;
