@@ -54,7 +54,7 @@ footer {
   }
 
 .img {
-    background: url(../img/libros.png) no-repeat center center;
+    background: url(../img/juegomesa.png) no-repeat center center;
     background-size: cover;
     width: 1000px;
     height: 100px;
@@ -66,7 +66,7 @@ footer {
     align-items: center;
 }
 
-.libros-descripcion {
+.juegos-descripcion {
     margin-left: 20px;
     color: #fff;
 }
