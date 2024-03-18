@@ -4,7 +4,7 @@ header{
     height: 80px;
     align-items: center;
     justify-content: space-between;
-    background-color: #B5754A;
+    background-color: #182438;
 }
 
 aside{
@@ -31,14 +31,14 @@ ul{
 
 .div1{
     width: 25%;
-    background-color: #CC9A70;
+    background-color: #4C5D57;
     float: left;
 }
 
 .div2{
 
     width: 75%;
-    background-color: #8F5A31;
+    background-color: #8A3631;
     float: left;
 }
 
@@ -54,7 +54,7 @@ footer {
   }
 
 .img {
-    background: url(../img/autodune.png) no-repeat center center;
+    background: url(../img/libros.png) no-repeat center center;
     background-size: cover;
     width: 1000px;
     height: 100px;
