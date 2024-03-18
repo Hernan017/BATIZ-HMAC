@@ -4,7 +4,7 @@ header{
     height: 80px;
     align-items: center;
     justify-content: space-between;
-    background-color: #0D646B;
+    background-color: #F27F3D;
 }
 
 aside{
@@ -31,14 +31,14 @@ ul{
 
 .div1{
     width: 25%;
-    background-color: #E27812;
+    background-color: #F2B950;
     float: left;
 }
-ED8F49
+
 .div2{
 
     width: 75%;
-    background-color: #ED8F49;
+    background-color: #F26444;
     float: left;
 }
 
@@ -54,7 +54,7 @@ footer {
   }
 
 .img {
-    background: url(../img/juegomesa.png) no-repeat center center;
+    background: url(../img/peliculas.png) no-repeat center center;
     background-size: cover;
     width: 1000px;
     height: 100px;
@@ -66,7 +66,7 @@ footer {
     align-items: center;
 }
 
-.jeugos-descripcion {
+.peli-descripcion {
     margin-left: 20px;
     color: #fff;
 }
