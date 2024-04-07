@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Calificación Final</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Calificación Final</h1>
+        <form id="califFormulario">
+            <label for="par1">Calificación del primer parcial:</label>
+            <input type="text" id="par1">
+            <br>
+            <label for="par2">Calificación del segundo parcial:</label>
+            <input type="text" id="par2">
+            <br>
+            <label for="par3">Calificación del tercer parcial:</label>
+            <input type="text" id="par3">
+            <br>
+            <label for="exaFinal">Calificación del examen final:</label>
+            <input type="text" id="exaFinal">
+            <br>
+            <label for="TraFinal">Calificación del trabajo final:</label>
+            <input type="text" id="TraFinal">
+            <br>
+            <button type="submit">Calcular Calificación Final</button>
+        </form>
+        <div id="resultado" class="hidden">
+            <h2>Calificación Final:</h2>
+            <p id="califFinal"></p>
+        </div>
+    </div>
+    <script src="formul4.js"></script>
+</body>
+</html>
