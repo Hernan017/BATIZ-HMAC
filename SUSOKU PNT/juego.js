@@ -49,6 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
+
     function reiniciarSodoku() {
         for (let fila = 0; fila < medidaCuadricula; fila++) {
             for (let col = 0; col < medidaCuadricula; col++) {
@@ -63,6 +64,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 });
+
 
 async function resolverJuego() {
     const medidaCuadricula = 9;
@@ -109,6 +111,7 @@ async function resolverJuego() {
     }
 }
 
+
 function maestroSodoku(tablero) {
     const medidaCuadricula = 9;
     for (let fila = 0; fila < medidaCuadricula; fila++) {
@@ -130,6 +133,7 @@ function maestroSodoku(tablero) {
     }
     return true;
 }
+
 
 function verificarConflictos(tablero, fila, col, num) {
     const medidaCuadricula = 9;
@@ -153,9 +157,11 @@ function verificarConflictos(tablero, fila, col, num) {
     return true;
 }
 
+
 function efectoRetraso(ms) {
     return new Promise(maestroSodoku => setTimeout(maestroSodoku, ms))
 }
+
 
 function validarEntrada(event, fila, col) {
     const celdaId = `celda-${fila}-${col}`;
@@ -217,6 +223,7 @@ function validarEntrada(event, fila, col) {
     }
 }
 
+
 function generarNumerosAleatorios() {
     const medidaCuadricula = 9;
     const numerosUtilizados = Array.from({ length: medidaCuadricula }, () => Array.from({ length: medidaCuadricula }, () => 0));
@@ -240,6 +247,7 @@ function generarNumerosAleatorios() {
     }
 }
 
+
 function generarSolucionCompleta() {
     const medidaCuadricula = 9;
     const solucion = Array.from({ length: medidaCuadricula }, () => Array.from({ length: medidaCuadricula }, () => 0));
@@ -251,6 +259,7 @@ function generarSolucionCompleta() {
         return generarSolucionCompleta();
     }
 }
+
 
 function verificarGanador() {
     const medidaCuadricula = 9;
