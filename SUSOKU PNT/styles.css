@@ -34,7 +34,7 @@ h1{
     height: 50px;
     text-align: center;
     font-size: 25px;
-    border: 1px solid #979191;
+    border: 1px solid #b56f6f;
     transition: all 0.3s ease-in-out;
 }
 
@@ -107,4 +107,20 @@ footer{
     background-color: #A9CCE3;
     transition: all 0.2s ease-in-out;
     float:left;
+}
+
+h2{
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+#BotValidar{
+    background-color: #45B12D;
+}
+
+#BotValidar:hover{
+    background-color: #111F77;
 }
